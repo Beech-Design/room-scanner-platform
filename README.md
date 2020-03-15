@@ -32,12 +32,8 @@ When the SD card is in the RasPi4, SSH in (you can use `raspberrypi.local` or fi
 
 `sudo raspi-config`
 
-1. Change user password
-  - Option 1
-2. Change hostname (if you have multiple pis)
-  - Option 2, then N1
- 
-
+1. Change user password (Option 1)
+2. Change hostname - useful if you need to distinguish between multiple pis (Option 2, then N1)
 
 ```
 sudo apt update
