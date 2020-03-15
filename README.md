@@ -50,3 +50,14 @@ python3 -m pip install --upgrade --user pip setuptools
 python3 -m pip install --upgrade --user Cython==0.29.10 pillow
 sudo pip3 install kivy
 ```
+* Test: the showcase program should now run (touchscreen will not work, but need to run file to create config file for next step)
+  * `python /usr/local/share//kivy-examples/demo/showcase/main.py`
+* Exit program (Ctrl + C)
+* config touchscreen to accept input
+  * `sudo nano ~/.kivy/config.ini`
+  * ... under [input] add
+  * ```
+    mouse = mouse
+    mtdev_%(name)s = probesysfs,provider=mtdev
+    hid_%(name)s = probesysfs,provider=hidinput
+    ```
