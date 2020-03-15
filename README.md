@@ -26,7 +26,19 @@ network={
 
 ## General OS setup
 
-When the SD card is in the RasPi4, SSH in:
+When the SD card is in the RasPi4, SSH in (you can use `raspberrypi.local` or find the IP address by accessing your router):
+
+### Raspi-config steps
+
+`sudo raspi-config`
+
+1. Change user password
+  - Option 1
+2. Change hostname (if you have multiple pis)
+  - Option 2, then N1
+ 
+
+
 ```
 sudo apt update
 sudo apt upgrade
