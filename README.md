@@ -34,6 +34,7 @@ When the SD card is in the RasPi4, SSH in (you can use `raspberrypi.local` or fi
 
 1. Change user password (Option 1)
 2. Change hostname - useful if you need to distinguish between multiple pis (Option 2, then N1)
+3. Enable VNC, graphical remote acces (Option 5, then P3)
 
 ```
 sudo apt update
